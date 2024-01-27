@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="jumbotron">
+            <h1>Teduh Health</h1>
+            <p id="description">Layanan Konsultasi kesehatan mental online.</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#tentang">Tentang</a></li>
+                <li><a href="#topik">Topik</a></li>
+                <li><a href="#konsultasi">Konsultasi</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id="content">
+            <article id="tentang" class="card">
+                <h2>Tentang Kesehatan Mental</h2>
+                <img src="img/anxiety.png" class="featured-image" alt="Gambar tentang kesehatan mental">
+                <p>Kesehatan Mental adalah keadaan kesejahteraan emosional, psikologis, dan sosial di mana individu mampu mengatasi tekanan hidup, berfungsi secara produktif, serta memberikan kontribusi yang berarti dalam masyarakat. Ini melibatkan keseimbangan yang baik antara berbagai aspek kehidupan sehari-hari, seperti mengelola stres, memiliki hubungan yang sehat, dan memiliki kemampuan untuk beradaptasi dalam menghadapi tantangan kehidupan. Kesehatan mental yang baik menjadi landasan penting untuk kehidupan yang berkualitas dan pencapaian potensi seseorang.</p>
+            </article>
+
+            <article id="topik" class="card">
+                <h2>Topik Kesehatan Mental</h2>
+                <img src="https://www.prosehat.com/wp-content/uploads/2021/01/kesehatan-mental-di-Indonesia.png" class="featured-image" alt="Ilustrasi topik kesehatan mental">
+                <h3>Stres</h3>
+                <p>Stres tidak selalu buruk, namun stres jangka panjang bisa berdampak buruk pada kesehatanmu. Berbagai situasi atau peristiwa kehidupan dapat menimbulkan stres. Ketika kita menghadapi pengalaman baru atau situasi di luar kendali kita, kita dapat merasa lebih stres daripada biasanya. Stres tidak dapat dihilangkan, tetapi kita dapat mengatasi stres dengan berbagai cara. Jika kamu kesulitan mengatasi stres, dapatkan bantuan profesional untuk mencari cara mengelola stres dengan lebih baik.</p>
+
+                <h3>Cemas</h3>
+                <p>Merasa cemas itu biasa, namun kecemasan yang berlebihan dapat berdampak negatif. Kecemasan berlebihan dapat menimbulkan gejala fisik seperti gemetar, berkeringat, mual, dan detak jantung yang cepat. Kamu juga mungkin mengalami sakit perut, serta leher dan bahu yang tegang. Semakin tinggi tingkat kecemasanmu, mungkin kamu akan semakin menghindar dari berbagai situasi. Jika kecemasanmu memengaruhi kehidupan sehari-harimu, dapatkan bantuan ahli kesehatan mental. Mereka dapat mengajarkan strategi mengatasi kecemasan dan menentukan apakah kamu membutuhkan perawatan rutin.</p>
+
+                <h3>Depresi</h3>
+                <p>Depresi adalah perasaan sedih atau putus asa yang mendalam dan berkepanjangan. Pada awalnya, kamu mungkin merasa tidak bersemangat. Kamu tetap menjalani kehidupan sehari-hari, namun semua terasa lebih berat dan sia-sia. Semakin lama, mungkin kamu terlibat dalam perilaku yang merugikan diri sendiri. Jika kamu terus merasa kehilangan minat terhadap hal-hal yang biasa kamu nikmati, dapatkan bantuan dari seorang profesional. Mereka dapat membantumu menemukan penyebabnya dan menentukan tingkat keparahan depresimu.</p>
+
+                <h3>Keluarga dan Hubungan</h3>
+                <p>Ruang aman dan nyaman untuk bercerita tentang orang-orang terdekatmu. Semua masalah keluarga dan hubungan berbeda, dan dapat memengaruhimu secara berbeda pula. Jika kamu menghadapi masalah dengan orang terdekat, kamu bisa mendapat manfaat dari bantuan ahli kesehatan mental.</p>
+            </article>
+        </div>
+
+        <aside>
+            <article class="profile card">
+                <header>
+                    <h2>Ayo Konsultasi</h2>
+                    <p>Komunikasi Sesuai Caramu</p>
+                    <figure>
+                        <img src="img/mental.jpg" alt="Ilustrasi konsultasi">
+                        <figcaption>Lambang</figcaption>
+                    </figure>
+                </header>
+                <section>
+                    <h3>Informasi Lainnya</h3>
+                    <form id="myForm">
+                        <input type="text" id="name" placeholder="Nama" />
+                        <input type="text" id="city" placeholder="Kota" />
+                        <input type="email" id="email" placeholder="Email" />
+                        <input type="number" id="zip-code" placeholder="Kode Pos" />
+                        <br>
+                        <label for="status">Dengan ini saya menyatakan data yang diisi pada form ini adalah benar dan telah sesuai</label>
+                        <input type="checkbox" id="status" />
+                        <button type="submit" id="submit-form">Submit</button>
+                    </form>
+                    <div id="warning"></div>
+                </section>
+            </article>
+        </aside>
+    </main>
+    <footer>
+        <p>Teduh Health &#169; 2023, Kamu Tidak Sendiri</p>
+        <a href="https://www.dicoding.com/" id="link">Kunjungi Dicoding</a>
+      </footer>
+  </body>
+  </html>
